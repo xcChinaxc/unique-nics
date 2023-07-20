@@ -21,9 +21,12 @@ module.exports = {
       'apple-valley': '#ee818a',
       'just-right': '#ddc1b0',
       'sweet-sheba': '#f1b6aa',
-      'grayred': '#735d5d'
+      'grayred': '#735d5d',
+      'grayish': '#d9d9d9',
+      'indigo-shadow': '#4133b7',
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ],
 };

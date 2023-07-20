@@ -1,34 +1,15 @@
 # Unique-Nics Design & Events
 
-Client site built for an event planner used to increase sales, generate leads, and rent decorative pieces. This is a [Next.js](https://nextjs.org/) project using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-<!-- ### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot! -->
-
-<!-- ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
-
-## Built using
-
-- Next.js
-- Sanity.io
-- TailwindCSS
-- TypeScript
-- Vercel
-
-## Future Developments
-
-- Add a chatbox to increase lead generation
-- Add Stripe integration for renting decorative pieces
-
 ## Getting Started
 
-First, run the development server:
+Configure `client-config.tsx` for Sanity.
+```
+projectId: "###",
+dataset: "###",
+apiVersion: "###",
+```
+
+Run the development server:
 
 ```bash
 npm run dev
