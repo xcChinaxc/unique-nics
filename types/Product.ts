@@ -7,5 +7,5 @@ export type Product = {
     slug: string;
     image: string;
     price: number;
-    details: PortableTextBlock;
+    details: PortableTextBlock[];
 };

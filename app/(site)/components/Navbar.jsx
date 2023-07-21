@@ -10,10 +10,10 @@ const Navbar = () => {
             <header className='flex items-center justify-between'>
                 <Link
                     href="/"
-                    className="font-extrabold bg-gradient-to-b from-light-coral via-eggplant to-light-coral bg-clip-text text-transparent">
+                    className="font-extrabold bg-gradient-to-b from-light-coral via-eggplant to-light-coral bg-clip-text text-transparent hover:scale-105 transition">
                     Unique-Nics
                 </Link>
-                <nav className='flex items-center gap-5 text-sm'>
+                <nav className='flex items-center gap-5 text-sm hover:text-eggplant'>
                     <ul>
                         <li>
                             <Link
