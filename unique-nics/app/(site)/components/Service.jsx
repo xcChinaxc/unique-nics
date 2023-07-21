@@ -13,7 +13,7 @@ const Service = () => {
                             Design
                         </h4>
                         <p className='mt-2 text-raisin-black line-clamp-2'>
-                            Give us your vision, and we'll ensure you get a unique design tailored to your occasion.
+                            Give us your vision, and we`&apos;`ll ensure you get a unique design tailored to your occasion.
                         </p>
                     </div>
                 </article>
@@ -33,7 +33,7 @@ const Service = () => {
                             Event Planning
                         </h4>
                         <p className='mt-2 text-raisin-black line-clamp-2'>
-                            We'll help you from beginning to end or tying up loose ends!
+                            We`&apos;`ll help you from beginning to end or tying up loose ends!
                         </p>
                     </div>
                 </article>
