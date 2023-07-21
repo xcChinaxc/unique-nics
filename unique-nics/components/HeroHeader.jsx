@@ -2,8 +2,8 @@ import React from 'react';
 
 const HeroHeader = () => {
     return (
-        <div className='container py-10 bg-auto bg-repeat glamorous-desert-sand-timberwolf opacity-75'>
-            <div className='px-4 text-center'>
+        <div className='py-10 bg-auto bg-repeat glamorous-desert-sand-timberwolf opacity-75'>
+            <div className='text-center'>
                 <h1 className="text-7xl font-extrabold tracking-wide bg-gradient-to-b from-light-coral via-eggplant to-light-coral bg-clip-text text-transparent">
                     Unique-Nics
                 </h1>
