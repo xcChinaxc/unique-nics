@@ -6,7 +6,7 @@ const Navbar = () => {
             <ul>
                 <li>
                     <h2>
-                        <a href="/" className="font-extrabold bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand bg-clip-text text-transparent">Unique-Nics</a>
+                        <a href="/" className="font-extrabold bg-gradient-to-b from-light-coral via-eggplant to-light-coral bg-clip-text text-transparent">Unique-Nics</a>
                     </h2>
                 </li>
                 <li><a href="#">about</a></li>

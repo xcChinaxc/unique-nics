@@ -11,30 +11,31 @@ export default async function Product({ params }: Props) {
 
     const product = await getProduct(slug);
 
-    return (<div className="max-w-3xl mx-auto py-20">
-        <div>
-            <div className="product-container">
-                {product.image && (
-                    <Image
-                        src={product.image}
-                        alt={product.name}
-                        width={250}
-                        height={250}
-                        className="product-image"
-                    />
-                )}
-                <p className="product-name">{product.name}</p>
-                <p className="product-price">{product.price}</p>
+    return (
+        <div className="max-w-3xl mx-auto py-20">
+            <div>
+                <div className="product-container">
+                    {product.image && (
+                        <Image
+                            src={product.image}
+                            alt={product.name}
+                            width={250}
+                            height={250}
+                            className="product-image"
+                        />
+                    )}
+                    <p className="product-name">{product.name}</p>
+                    <p className="product-price">{product.price}</p>
 
-                <p>Details:</p>
+                    <p>Details:</p>
 
-                <div>
-                    <PortableText value={product.details} />
+                    <div>
+                        <PortableText value={product.details} />
+                    </div>
+
                 </div>
-
             </div>
-        </div>
 
-    </div>
+        </div>
     );
 }

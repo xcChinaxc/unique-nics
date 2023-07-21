@@ -6,7 +6,7 @@ const Service = () => {
             <h2 className="m-5 text-center font-bold text-raisin-black text-3xl">
                 Services Offered
             </h2>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2'>
                 <article class="p-1.5 mx-auto my-4 max-w-sm rounded-xl bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand">
                     <div class="bg-white p-5 rounded-lg">
                         <h4 class="text-eggplant text-2xl font-bold">
