@@ -11,31 +11,38 @@ export default async function Product({ params }: Props) {
 
     const product = await getProduct(slug);
 
+
+
     return (
-        <div className="max-w-3xl mx-auto py-20">
+        <div className="border border-eggplant grid grid-cols-2 items-center">
+            <div className="mx-auto">
+                {product.image && (
+                    <Image
+                        src={product.image}
+                        alt={product.name}
+                        width={250}
+                        height={250}
+                        className="scale-75 border-4 border-raisin-black object-cover rounded-xl"
+                    />
+                )}
+            </div>
             <div>
-                <div className="product-container">
-                    {product.image && (
-                        <Image
-                            src={product.image}
-                            alt={product.name}
-                            width={250}
-                            height={250}
-                            className="product-image"
-                        />
-                    )}
-                    <p className="product-name">{product.name}</p>
-                    <p className="product-price">{product.price}</p>
-
-                    <p>Details:</p>
-
-                    <div>
-                        <PortableText value={product.details} />
-                    </div>
-
+                <h1 className="text-3xl font-extrabold tracking-wide bg-gradient-to-b from-light-coral via-eggplant to-light-coral bg-clip-text text-transparent">{product.name}</h1>
+                <p className="mt-7 font-bold text-raisin-black">
+                    Details:
+                </p>
+                <div className="text-raisin-black">
+                    <PortableText value={product.details} />
+                </div>
+                <p className="mt-7 text-mountbatten-pink text-xl">${product.price}</p>
+                <div>
+                    <p>Quantity:</p>
+                    <p className="bg-mountbatten-pink rounded-lg text-white py-3 px-4 whitespace-nowrap hover:bg-light-coral transition">Add to Cart</p>
                 </div>
             </div>
 
         </div>
+
+
     );
 }
