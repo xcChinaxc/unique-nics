@@ -1,4 +1,4 @@
-export default async function Services() {
+export default async function Service() {
 
     return (
         <div>
