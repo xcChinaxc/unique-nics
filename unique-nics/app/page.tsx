@@ -10,7 +10,7 @@ export default async function Home() {
 
       <Service />
 
-      <Product />
+      <Footer />
 
     </div>
 

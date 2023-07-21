@@ -13,7 +13,7 @@ const Product = () => {
                 <Link
                     href={`/products/${product.slug}`}
                     key={product._id}
-                    className="border-2 border-light-wallis rounded-lg p-1 hover:scale-105 hover:border-grayred transition"
+                    className="border-2 border-timberwolf rounded-lg p-1 hover:scale-105 hover:border-timberwolf transition"
                 >
 
                     {product.image && (
@@ -22,11 +22,11 @@ const Product = () => {
                             alt={product.name}
                             width={700}
                             height={300}
-                            className="object-cover rounded-lg border border-light-wallis"
+                            className="object-cover rounded-lg border border-timberwolf"
                         />
                     )}
 
-                    <div className="mt-2 font-extrabold bg-gradient-to-r from-just-right via-apple-valley to-just-right bg-clip-text text-transparent">
+                    <div className="mt-2 font-extrabold bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand bg-clip-text text-transparent">
                         {product.name}
                     </div>
                 </Link>
