@@ -9,12 +9,9 @@ Client site built for an event planner used to increase sales, generate leads, a
 
 Add a screenshot! 
 -->
-<!-- 
-### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
- -->
+### Links
+- Live Site URL: [Unique-Nics Vercel App](https://unique-nics.vercel.app)
 
 ## Features
 
