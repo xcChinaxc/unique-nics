@@ -15,7 +15,7 @@ Add a screenshot!
 
 ## Features
 
-The event planner client wants to receive a wishlist or cart of items that the renter/user wants to rent so that the event planner can ensure date and item availability. The renter/user should have the ability to see items, add and remove items, and "checkout"  items from the cart
+The event planner client wants to receive a wishlist or cart of items that the renter/user wants to rent so that the event planner can ensure date and item availability. The renter/user should have the ability to see items, add and remove items, and "checkout"  items from the cart.
 
 ## Future Developments
 
