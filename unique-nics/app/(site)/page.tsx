@@ -1,4 +1,5 @@
-import { Navbar, HeroHeader, Service, Footer, Product } from '../components';
+import { HeroHeader, Service } from "./components";
+
 
 export default async function Home() {
 
@@ -6,9 +7,8 @@ export default async function Home() {
     <div>
 
       <HeroHeader />
-
+      
       <Service />
-
     </div>
 
   );
