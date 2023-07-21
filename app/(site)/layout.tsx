@@ -1,4 +1,4 @@
-import { Navbar, Footer } from './components';
+import { Navbar, HeroHeader, Footer } from './components';
 import '../globals.css';
 import type { Metadata } from 'next';
 
@@ -17,6 +17,8 @@ export default function RootLayout({
     <html lang="en">
       <body className='max-w-3xl mx-auto pt-2'>
         <Navbar />
+
+        <HeroHeader />
 
         <main>
           {children}

@@ -11,7 +11,7 @@ Add a screenshot!
 -->
 
 ### Links
-- Live Site URL: [Unique-Nics Vercel App](https://unique-nics.vercel.app)
+- Live Site: [Unique-Nics Vercel App](https://unique-nics.vercel.app)
 
 ## Features
 
