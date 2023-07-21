@@ -34,13 +34,6 @@ The event planner client wants to receive a wishlist or cart of items that the r
 
 ## Getting Started
 
-Configure `client-config.tsx` for Sanity.
-```
-projectId: "###",
-dataset: "###",
-apiVersion: "###",
-```
-
 Run the development server:
 
 ```bash
