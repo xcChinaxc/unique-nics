@@ -12,7 +12,7 @@ export default async function Home() {
             Unique-Nics
           </h1>
           <span className="text-4xl text-raisin-black">
-            Design `&#38;` Events
+            Design &#38; Events
           </span>
           <p className="mt-4 text-2xl text-raisin-black">
             unique experiences, no matter the occassion
