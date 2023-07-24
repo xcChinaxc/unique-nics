@@ -13,21 +13,22 @@ export default async function Rental() {
                 uniquely serving the metro-atlanta area
             </p>
 
-            <div className="">
-                <article className="mx-auto flex justify-between items-center ">
+            <div className="mt-5 flex flex-col">
+                <article className="p-3 flex flex-col items-center">
                     <img
-                        //  bg-clip-padding bg-transparent b-l-2 b-r-2 rounded-xl  //   
-                        className="p-1 rounded-xl bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand"
-                        src="https://picsum.photos/id/21/400"
+                        className=" p-1.5 rounded-lg w-full h-auto max-w-screen-md bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand"
+                        src="https://picsum.photos/id/21/00"
                         alt="white heels shoes"
                     />
-                    <div className="bg-white p-8 rounded-lg">
-                        <h4 id="rentals" className="text-eggplant text-2xl font-bold">
-                            Owner &#38; Creative Director
-                        </h4>
-                        <p className='mt-2 text-raisin-black text-justify'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                    <div className="flex flex-col px-12 items-center -mt-16 md:-mt-32">
+                        <div className="flex flex-col rounded-lg bg-white p-8 mx-2 max-w-screen-sm">
+                            <h4 id="rentals" className="text-eggplant text-2xl font-bold">
+                                Owner &#38; Creative Director
+                            </h4>
+                            <p className='mt-2 text-raisin-black'>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
