@@ -10,7 +10,7 @@ export default async function Rental() {
                 uniquely serving the metro-atlanta area
             </p>
 
-            <div className='mt-5 grid md:grid-cols-2 gap-6'>
+            <div className='mt-5 px-3 grid md:grid-cols-2 md:gap-6'>
                 <article className="p-1.5 mx-auto my-4 rounded-xl bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand">
                     <div className="bg-white p-8 rounded-lg">
                         <h4 id="design" className="text-eggplant text-2xl font-bold">

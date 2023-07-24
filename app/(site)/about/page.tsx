@@ -16,7 +16,7 @@ export default async function Rental() {
             <div className="mt-5 flex flex-col">
                 <article className="p-3 flex flex-col items-center">
                     <img
-                        className=" p-1.5 rounded-lg w-full h-auto max-w-screen-md bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand"
+                        className="p-1.5 rounded-lg w-full h-auto max-w-screen-md bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand"
                         src="https://picsum.photos/id/21/00"
                         alt="white heels shoes"
                     />
