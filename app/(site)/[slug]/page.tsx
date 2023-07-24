@@ -12,7 +12,7 @@ export default async function Page({ params }: Props) {
         <div>
 
             <div className="mt-4 text-xl text-raisin-black">
-                <PortableText value={page.content} />
+                <PortableText value={[page.content]} />
             </div>
 
         </div>

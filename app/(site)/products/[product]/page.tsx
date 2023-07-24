@@ -6,12 +6,12 @@ type Props = {
     params: { product: string; };
 };
 
+import { PortableText } from "@portabletext/react";
+
 export default async function Product({ params }: Props) {
     const slug = params.product;
 
     const product = await getProduct(slug);
-
-
 
     return (
         <div className="border border-eggplant grid grid-cols-2 items-center">
@@ -32,7 +32,7 @@ export default async function Product({ params }: Props) {
                     Details:
                 </p>
                 <div className="text-raisin-black">
-                    <PortableText value={product.details} />
+                    <PortableText {product.details}>
                 </div>
                 <p className="mt-7 text-mountbatten-pink text-xl">${product.price}</p>
                 <div>

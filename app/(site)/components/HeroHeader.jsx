@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Layout = () => {
+const HeroHeader = () => {
     return (
         <div>
-            <div className='py-10 bg-auto bg-repeat glamorous-desert-sand-timberwolf opacity-75'>
+            <div className='py-5'>
                 <div className='text-center'>
                     <h1 className="text-7xl font-extrabold tracking-wide bg-gradient-to-b from-light-coral via-eggplant to-light-coral bg-clip-text text-transparent">
                         Unique-Nics
@@ -11,7 +11,7 @@ const Layout = () => {
                     <span className="text-4xl text-raisin-black">
                         Design &#38; Events
                     </span>
-                    <p className="mt-4 text-2xl text-raisin-black">
+                    <p className="m-4 text-xl text-raisin-black">
                         unique experiences, no matter the occassion
                     </p>
                 </div>
@@ -20,4 +20,4 @@ const Layout = () => {
     );
 };
 
-export default Layout;
+export default HeroHeader;

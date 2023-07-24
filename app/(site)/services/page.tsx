@@ -3,8 +3,8 @@ export default async function Service() {
     return (
         <div>
 
-            <h2 className="mt-5 text-center font-bold text-raisin-black text-3xl">
-                Event Services Menu
+            <h2 className="text-center font-bold text-raisin-black text-3xl">
+                Services Menu
             </h2>
             <p className="mt-2 text-center text-xl text-raisin-black">
                 create unique moments with any budget

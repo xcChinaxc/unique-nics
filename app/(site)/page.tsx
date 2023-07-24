@@ -6,7 +6,7 @@ export default async function Home() {
     <div>
 
       <div>
-        <h2 className="m-5 text-center font-bold text-raisin-black text-3xl">
+        <h2 className="text-center font-bold text-raisin-black text-3xl">
           Services Offered
         </h2>
         <div className='grid md:grid-cols-2 gap-4'>
