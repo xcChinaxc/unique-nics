@@ -20,8 +20,8 @@ export default async function Rental() {
                         src="https://picsum.photos/id/21/00"
                         alt="white heels shoes"
                     />
-                    <div className="flex flex-col px-12 items-center -mt-16 md:-mt-32">
-                        <div className="flex flex-col rounded-lg bg-white p-8 mx-2 max-w-screen-sm">
+                    <div className="flex flex-col px-4 items-center -mt-16 md:-mt-32 md:px-8">
+                        <div className="flex flex-col rounded-lg bg-white p-4 mx-1 max-w-screen-sm">
                             <h4 id="rentals" className="text-eggplant text-2xl font-bold">
                                 Owner &#38; Creative Director
                             </h4>

@@ -9,7 +9,7 @@ export default async function Home() {
         <h2 className="text-center font-bold text-raisin-black text-3xl">
           Services Offered
         </h2>
-        <div className='grid md:grid-cols-2 md:gap-4'>
+        <div className='px-3 grid md:grid-cols-2 md:gap-4'>
           <Link
             href="/services/#design"
             className="hover:scale-105 transition"
