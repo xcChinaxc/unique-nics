@@ -20,7 +20,7 @@ export default async function Home() {
                   Design
                 </h4>
                 <p className='mt-2 text-raisin-black line-clamp-2'>
-                  Give us your vision, and we&apos;ll ensure you get a unique design tailored to your occasion.
+                  Give us your vision you&apos;ll get a unique design tailored to your occasion.
                 </p>
               </div>
             </article>

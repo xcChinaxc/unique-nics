@@ -22,9 +22,12 @@ export default async function Rental() {
                     />
                     <div className="flex flex-col px-4 items-center -mt-16 md:-mt-32 md:px-8">
                         <div className="flex flex-col rounded-lg bg-white p-4 mx-1 max-w-screen-sm">
-                            <h4 id="rentals" className="text-eggplant text-2xl font-bold">
-                                Owner &#38; Creative Director
+                            <h4 className="text-eggplant text-xl font-bold">
+                                Owner Name
                             </h4>
+                            <p className="text-raisin-black text-l font-bold">
+                                Owner &#38; Creative Director
+                            </p>
                             <p className='mt-2 text-raisin-black'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>

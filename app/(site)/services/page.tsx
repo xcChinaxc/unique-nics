@@ -23,7 +23,7 @@ export default async function Service() {
                         <p className="mt-2 text-raisin-black">
                             Includes:
                         </p>
-                        <ul className="grid grid-cols-2">
+                        <ul className="grid grid-cols-2 text-raisin-black">
                             <li>creating theme concepts</li>
                             <li>developing design plans</li>
                             <li>make logo design</li>
@@ -61,7 +61,7 @@ export default async function Service() {
                         <p className="mt-2 text-raisin-black">
                             Includes:
                         </p>
-                        <ul className="grid grid-cols-2">
+                        <ul className="grid grid-cols-2 text-raisin-black">
                             <li>creating theme concepts</li>
                             <li>developing design plans</li>
                             <li>make logo design</li>
@@ -85,7 +85,7 @@ export default async function Service() {
                         <p className="mt-2 text-raisin-black">
                             Includes:
                         </p>
-                        <ul className="grid grid-cols-2">
+                        <ul className="grid grid-cols-2 text-raisin-black">
                             <li>creating theme concepts</li>
                             <li>developing design plans</li>
                             <li>make logo design</li>

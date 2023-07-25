@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 
 export const metadata: Metadata = {
-  title: 'Unique-Nics Events',
+  title: 'Unique-Nics Design & Events',
   description: 'Unique-Nics Design and Events',
 };
 

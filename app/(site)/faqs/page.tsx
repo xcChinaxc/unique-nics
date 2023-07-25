@@ -1,4 +1,4 @@
-export default async function Rental() {
+export default async function FAQ() {
 
     return (
         <div>
@@ -10,31 +10,52 @@ export default async function Rental() {
                 uniquely serving the metro-atlanta area
             </p>
 
-            <div className='mt-5 px-3 grid md:grid-cols-2 md:gap-6'>
-                <article className="p-1.5 mx-auto my-4 rounded-xl bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand">
-                    <div className="bg-white p-8 rounded-lg">
-                        <h4 id="design" className="text-eggplant text-2xl font-bold">
-                            Rentals
-                        </h4>
-                        <p className='mt-2 text-raisin-black text-justify'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div className="mt-5 join join-vertical w-full text-raisin-black border border-timberwolf border-1">
+                <div className="collapse collapse-arrow join-item bg-white">
+                    <input type="radio" name="my-accordion-4" />
+                    <div className="collapse-title text-xl ">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div className="collapse-content bg-white">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </p>
                     </div>
-                </article>
+                </div>
 
-                <article className="p-1.5 mx-auto my-4 rounded-xl  bg-gradient-to-r from-desert-sand via-light-coral to-desert-sand">
-                    <div className="bg-white p-8 rounded-lg">
-                        <h4 id="rentals" className="text-eggplant text-2xl font-bold">
-                            Delivery
-                        </h4>
-                        <p className='mt-2 text-raisin-black text-justify'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div className="divider"></div>
+
+                <div className="collapse collapse-arrow join-item bg-white">
+                    <input type="radio" name="my-accordion-4" />
+                    <div className="collapse-title text-xl ">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div className="collapse-content ">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </p>
                     </div>
-                </article>
+                </div>
+
+                <div className="divider"></div>
+
+                <div className="collapse collapse-arrow join-item bg-white">
+                    <input type="radio" name="my-accordion-4" />
+                    <div className="collapse-title text-xl ">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div className="collapse-content ">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
+                    </div>
+                </div>
             </div>
 
-        </div >
+
+
+        </div>
+
     );
 
 }
